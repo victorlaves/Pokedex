@@ -1,0 +1,143 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+.cabecalho{
+    background-color: rgb(50, 241, 50);
+    height: 10vh;
+    line-height: 9vh;
+}
+.cabecalho2{
+    background-color: rgb(168, 193, 7);
+    height: 10vh;
+    line-height: 9vh;
+}
+.cabecalho img{
+    float: left;
+    vertical-align: middle;
+    margin-left: 1vw;
+}
+.btnNav{
+    float: right;
+    height: 10vh;
+    width: 21vw;
+    margin-right: 8vw;
+}
+.btn{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    width: 6vw;
+    font-size: 20px;
+}
+.btn2{
+    float: left;
+    text-align: center;
+    margin-left: 2vw;
+    width: 30vw;
+    font-size: 20px;
+}
+.conteudo{
+    background-color: lightblue;
+    height: 90vh;
+    text-align: center;
+}
+.conteudo1{
+    margin-top: auto;
+    height: 90vh;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   background-image: url("./imgs/pokes.jpg");
+}
+.conteudos2 {
+    margin-top: 5vh;
+    width: 80vw;
+    height: 80vh;
+    display: inline-block;
+}
+.pokeIMG {
+    float: left;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    margin-top: 2vh;
+    height: 30vh;
+    width: 15vw;
+}
+.pokeIMG img{
+    background-color: aliceblue;
+}
+.paginaPOKE{
+    margin-top: 5vh;
+    border-radius: 1vw;
+    display: inline-block;
+    width: 16vw;
+    height: 35vh;
+    background-color: rgb(27, 99, 162);
+    overflow: hidden;
+}
+.paginaPOKE:hover{
+    width: 31vw;
+    transition-duration: 0.5s;
+}
+.padrao {
+    width: 15vw;
+    float: left;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.paragrafo {
+    height: 15vh;
+    width: 15vw;
+    float: right;
+    margin-top: 2vh;
+}
+.paragrafo h3{
+    font-size: small;
+}
+.card2{
+    margin-right: 1vw;
+    float: right;
+    width: 5vw;
+    height: 5vh;
+}
+.card{
+    width: 15vw;
+    float: right;
+    height: 13vh;
+}
+.card h3{
+    font-size: small;
+}
+.status{
+    width:30vw; 
+    margin-left: 71.5vh
+}
+.cadastro{
+    margin-top: 5vh;
+    border-radius: 2vw;
+    display: inline-block;
+    width: 16vw;
+    height: 45vh;
+    background-color: rgb(209, 50, 35);
+}
